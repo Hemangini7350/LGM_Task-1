@@ -1,0 +1,297 @@
+*{ padding: 0; margin: 0; box-sizing:border-box ; font-family: sans-serif;}
+
+/* nav menu */
+
+.hp{
+width: 100%;
+background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url(homepage.jpg);
+background-position: center;
+background-size: cover;
+height: 95vh;
+}
+header{
+    width: 100%;
+    height: 100vh;
+}
+
+nav{
+    width: 100%;
+    height: 70px;
+    border-bottom: 1px solid gray;
+    box-shadow: 2px 0px 5px gray;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo{
+    font-size: 50px;
+    font-weight: bold;
+    color: palevioletred;
+}
+.logo:hover{
+    color: rgb(19, 5, 3);
+}
+
+.menu a{
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(218, 187, 14);
+    padding: 10px 20px;
+    margin: 5px;
+    font-weight: bold;
+}
+.menu a:hover{
+    color: palevioletred;
+}
+
+/* home page */
+
+.left{ 
+   flex-basis: 50%;
+    max-width: 600px;
+    margin-right:100px ;
+    padding-top: 200px;
+    padding-left: 60px;
+}
+.left h1{
+    font-size: 50px;
+    color: rgb(230, 194, 51);
+    font-family:cursive;
+
+}
+.left h2{
+    font-size: 40px;
+    color: rgb(0, 0, 0);
+}
+.left p{
+    font-size: 25px;
+    margin:  20px 0px;
+    font-family:cursive;
+}
+
+button{
+    background: rgb(233, 76, 76);
+    color: white;
+    font-weight: bold;
+    border: none;
+    outline: none;
+    padding: 10px 20px;
+    margin-bottom: 20px;
+    text-decoration: none;
+}
+button:hover{
+    background: rgb(71, 255, 126);
+}
+
+/* about section */
+   .about{
+    align-items: center;
+    font-family:Arial;
+    flex-basis: 50%;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    padding: 25px;
+    margin: 50px 50px;
+    font-weight: bold; 
+    width: 100%;
+     background-color: rgb(112, 235, 173);
+       height: 95vh;
+
+}
+.about h2{
+    color: rgb(0, 0, 0);
+    font-size: 50px;
+    font-family: Georgia;
+    padding: 10px;
+    margin: 10px;
+    text-align: center
+    
+
+}
+.about p{
+    color: rgb(21, 18, 36);
+    font-size:20px;
+    font-family:Georgia;
+    text-align: center;
+    
+}
+.about img{
+    width: 1000px;
+    height: 340px;
+    justify-content: center;
+    margin-left: 250px;
+    margin-top: 20px;
+
+}
+
+/* features section */
+.feature h2{
+    font-family: Georgia;
+}
+
+#ftr{
+    padding: 80px 0px ;
+}
+.ck{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#ftr{
+     padding: 50px 0px ;
+    font-size: 50px;
+    text-align: center;
+}
+.ck{
+    flex-basis: 15%;
+    box-shadow: 2px 3px 5px gray;
+    font-size: 15px;
+    padding: 10px;
+    text-align: center;
+}
+.ck img{
+    width: 250px;
+    height: 250px;
+}
+.ck h2{
+    margin: 20px 0px;
+    color: tomato;
+}
+.ck h3{ 
+    box-sizing: content-box;
+    background: rgba(44, 202, 12, 0.719);
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    margin: 10px;
+}
+.ck h3:hover{
+    background:rgb(71, 99, 255);
+    ;
+}
+.ck img:hover{
+    transform: scale(1.2);
+    transition: 0.4s ease linear;
+}
+
+/* gallary */ 
+  #slider{
+    overflow: hidden;
+}
+#slider figure{
+    position: relative;
+    width: 500%;
+    margin: 0;
+    left: 0;
+    animation: 20s slider infinite;
+
+}
+.slider h2{
+    font-family: Georgia;
+    text-align: center;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 70px;
+
+}
+.slider img{
+    width: 470px;
+    height: 400px;
+    align-items:center;
+    padding-left: 170px;
+    padding-top: 70px;
+} 
+.hr:hover{
+    transform: scale(1.2);
+    transition: 0.4s ease linear;
+} 
+}
+
+/* contact section */
+.search{
+    
+    text-align: center;
+    
+}
+
+ .srch{
+    font-family: 'Times New Roman';
+    width: 500px;
+    height: 40px;
+    background: white;
+    border: 1px , solid rgb(51, 255, 0);
+    margin-top: 13px;
+    color: rgb(12, 1, 1);
+    font-size: 16px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+    justify-items: normal;
+    text-align: center;
+
+ }
+.cntt{
+    text-align: center;
+    background-color: grey;
+    border: 1px solid greenyellow;
+    padding: 25px;
+    margin-top: 50px;
+}
+.cntt input{
+    width: 500px;
+    height: 30px;  
+    font-family: Arial; 
+}
+
+}
+.cnt{
+    text-align: center;
+    font-family: cursive;
+
+}
+ .cntt h1{
+     font-size: 42px;
+     font-family: Georgia;
+     text-align: center;
+     color: rgb(19, 5, 3)
+
+ }
+ .btn1 a{
+     text-decoration: none;
+     font-size: 15px;
+     color: white;
+     font-family: Georgia;
+ }
+
+/* footer section */
+ #footer{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    background-image:linear-gradient(#061422,#9610fd);
+    color: white;
+    padding: 10px;
+}
+.footer h2{
+    color: white;
+}
+.footer h2:hover{
+    color: white;
+}
+.footer h4{
+    color: #d3bfc4;
+    font-family: cursive;
+}
+.btm:hover{
+    color: #6ce923 ;
+}
+.cprt:hover{
+    color: rgb(253, 61, 13);
+}
+.sm{
+    width: 170px;
+    height: 150px;
+}
+.sm:hover{
+    transform: scale(1.2);
+    transition: 0.4s ease linear;
+} 
